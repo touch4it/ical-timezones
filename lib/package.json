@@ -1,0 +1,25 @@
+{
+  "name": "@touch4it/ical-timezones",
+  "version": "0.0.1",
+  "description": "iCal timezone component generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "ical",
+    "icalendar",
+    "timezone",
+    "vtimezone",
+    "RFC5545",
+    "RFC 5545"
+  ],
+  "author": "Touch4IT, s.r.o. <hi@touch4it.com> (https://touch4it.com/)",
+  "contributors": [
+    "Viktor Sulak <viktor.sulak@touch4it.com>"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
