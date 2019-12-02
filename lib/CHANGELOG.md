@@ -1,5 +1,9 @@
 # ical-timezone Changelog
 
+## 0.0.4 (2019-12-02)
+
+-   Fix Node engine version
+
 ## 0.0.3 (2019-12-02)
 
 -   Refactor change main script name to index
