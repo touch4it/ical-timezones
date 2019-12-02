@@ -1,10 +1,10 @@
 {
   "name": "@touch4it/ical-timezones",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "iCal timezone component generator",
   "homepage": "https://github.com/touch4it/ical-timezones",
   "bugs": {
-    "url" : "https://github.com/touch4it/ical-timezones/issues"
+    "url": "https://github.com/touch4it/ical-timezones/issues"
   },
   "main": "index.js",
   "engines": {
@@ -30,6 +30,8 @@
   ],
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-touch4it": "^1.0.0",
     "jest": "^24.9.0"
   }
 }

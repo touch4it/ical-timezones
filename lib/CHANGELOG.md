@@ -1,8 +1,13 @@
 # ical-timezone Changelog
 
+## 1.0.0 (2019-12-02)
+
+-   Fixed zones reading when used as library
+-   Fixed test require paths after main script rename
+
 ## 0.0.4 (2019-12-02)
 
--   Fix Node engine version
+-   Fixed Node engine version
 
 ## 0.0.3 (2019-12-02)
 
