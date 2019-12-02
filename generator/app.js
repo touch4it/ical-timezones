@@ -7,11 +7,11 @@ const zones = {};
 for (const zone of files) {
   const name = zone.replace('../lib/zones/', '').replace('.ics', '');
 
-  zones[name] = name + '.ics';
+  zones[name] = `${name}.ics`;
 
   if (name.match(/^Etc\/*/)) {
     const match = name.match(/^Etc\/(.*)/);
-    zones[match[1]] = name + '.ics';
+    zones[match[1]] = zones[name];
   }
 }
 
@@ -94,4 +94,4 @@ for (const index in zones) {
   fs.writeFileSync('../lib/zones.js', `  '${index}': '${zones[index]}',\n`, {flag: 'a'});
 }
 
-fs.writeFileSync('../lib/zones.js', '};', {flag: 'a'});
+fs.writeFileSync('../lib/zones.js', '};\n', {flag: 'a'});
