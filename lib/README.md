@@ -1,6 +1,6 @@
 #   RFC 5545 VTIMEZONE iCalendar component generator
 
-Library to generate 
+Library to generate VTIMEZONE iCalendar component
 
 ##  Usage
 
