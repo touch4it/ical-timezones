@@ -1,6 +1,6 @@
 {
   "name": "@touch4it/ical-timezones",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "iCal timezone component generator",
   "homepage": "https://github.com/touch4it/ical-timezones",
   "bugs": {
@@ -19,10 +19,13 @@
     "ical",
     "icalendar",
     "timezone",
+    "time zone",
     "vtimezone",
     "RFC5545",
     "RFC 5545",
-    "generator"
+    "generator",
+    "time",
+    "zone"
   ],
   "author": "Touch4IT, s.r.o. <hi@touch4it.com> (https://touch4it.com/)",
   "contributors": [

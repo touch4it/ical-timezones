@@ -60,3 +60,5 @@ https://github.com/benfortuna/tzurl
 
 https://github.com/champtar/z-push/blob/master/src/lib/utils/timezoneutil.php
 
+http://www.healthstream.com/hlchelp/Administrator/Classes/HLC_Time_Zone_Abbreviations.htm
+

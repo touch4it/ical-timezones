@@ -1,5 +1,10 @@
 # ical-timezone Changelog
 
+## 1.1.0 (2019-12-06)
+
+-   Added time zones abbreviations
+-   Added "space" aliases for "underscore" timezones
+
 ## 1.0.0 (2019-12-02)
 
 -   Fixed zones reading when used as library
