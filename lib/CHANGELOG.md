@@ -1,5 +1,9 @@
 # ical-timezone Changelog
 
+## 1.1.1 (2019-12-12)
+
+-   Added tests to npm package
+
 ## 1.1.0 (2019-12-06)
 
 -   Added time zones abbreviations
