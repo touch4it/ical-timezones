@@ -1,10 +1,11 @@
 {
   "name": "@touch4it/ical-timezones-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint",
+    "lint": "eslint app.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +13,7 @@
     "glob": "^7.1.6"
   },
   "devDependencies": {
-    "eslint": "^6.7.2",
-    "eslint-config-touch4it": "^1.0.0"
+    "eslint": "^6.8.0",
+    "eslint-config-touch4it": "^3.2.1"
   }
 }
