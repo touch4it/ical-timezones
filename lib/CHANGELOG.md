@@ -1,5 +1,9 @@
 # ical-timezone Changelog
 
+## 1.2.0 (2020-03-16)
+
+-  Updated dependencies
+
 ## 1.1.1 (2019-12-12)
 
 -   Added tests to npm package
