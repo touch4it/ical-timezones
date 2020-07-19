@@ -1,19 +1,26 @@
 {
   "name": "@touch4it/ical-timezones-generator",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
+  "license": "ISC",
+  "author": "Touch4IT <hi@touch4it.com> (https://touch4it.com/)",
+  "contributors": [
+    "Viktor Sulak <sulak@touch4it.com>"
+  ],
   "main": "app.js",
   "scripts": {
-    "test": "npm run lint",
-    "lint": "eslint app.js"
+    "format-package": "npx format-package -w",
+    "lint": "eslint app.js",
+    "test": "npm run lint"
   },
-  "author": "",
-  "license": "ISC",
+  "maintainers": [
+    "Viktor Sulak <viktor.sulak@touch4it.com>"
+  ],
   "dependencies": {
     "glob": "^7.1.6"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-touch4it": "^3.2.1"
+    "eslint": "^7.5.0",
+    "eslint-config-touch4it": "^6.1.0"
   }
 }
