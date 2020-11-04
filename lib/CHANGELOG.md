@@ -1,5 +1,10 @@
 # ical-timezone Changelog
 
+## 1.4.0 (2020-11-04)
+
+-  Added `getVtimezoneComponent` method to parse VTIMEZONE component from full timezone object
+-  Updated dependencies
+
 ## 1.3.0 (2020-07-19)
 
 -  Updated dependencies
