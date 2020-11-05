@@ -1,5 +1,9 @@
 # ical-timezone Changelog
 
+## 1.4.1 (2020-11-05)
+
+-  Updated TypeScript definition file
+
 ## 1.4.0 (2020-11-04)
 
 -  Added `getVtimezoneComponent` method to parse VTIMEZONE component from full timezone object

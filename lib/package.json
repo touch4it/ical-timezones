@@ -1,6 +1,6 @@
 {
   "name": "@touch4it/ical-timezones",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "iCal timezone component generator",
   "homepage": "https://github.com/touch4it/ical-timezones",
   "bugs": {
