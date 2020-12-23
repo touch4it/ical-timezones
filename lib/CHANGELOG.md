@@ -1,5 +1,9 @@
 # ical-timezone Changelog
 
+## 1.5.0 (2020-12-23)
+
+-  Updated dependencies
+
 ## 1.4.1 (2020-11-05)
 
 -  Updated TypeScript definition file
