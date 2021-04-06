@@ -1,6 +1,6 @@
 # ical-timezone Changelog
 
-## 1.5.0 (2020-12-23)
+## 1.6.0 (2020-12-23)
 
 -  Updated dependencies
 
