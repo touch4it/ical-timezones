@@ -1,6 +1,6 @@
 {
   "name": "@touch4it/ical-timezones-generator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "license": "ISC",
   "author": "Touch4IT <hi@touch4it.com> (https://touch4it.com/)",
@@ -17,10 +17,10 @@
     "Viktor Sulak <viktor.sulak@touch4it.com>"
   ],
   "dependencies": {
-    "glob": "^7.1.6"
+    "glob": "^7.1.7"
   },
   "devDependencies": {
-    "eslint": "^7.5.0",
-    "eslint-config-touch4it": "^6.1.0"
+    "eslint": "^7.26.0",
+    "eslint-config-touch4it": "^6.2.0"
   }
 }
