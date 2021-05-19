@@ -11,6 +11,7 @@
     "node": ">=8.0.0"
   },
   "scripts": {
+    "test-only": "jest --forceExit",
     "test": "jest && npm run lint",
     "lint": "eslint *.js",
     "lint:fix": "eslint --fix *.js",
