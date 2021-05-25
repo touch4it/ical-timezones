@@ -25,6 +25,10 @@ const tz = require('@touch4it/ical-timezones');
 ```javascript
 const vtimezone = tz.getVtimezone('Europe/Bratislava');
 ```
+or
+```javascript
+const vtimezone = await tz.getVtimezoneAsync('Europe/Bratislava');
+```
 
 Generated output
 
@@ -59,6 +63,10 @@ END:VCALENDAR
 ```javascript
 const vtimezone = tz.getVtimezoneComponent('Europe/Bratislava');
 ```
+or
+```javascript
+const vtimezone = await tz.getVtimezoneComponentAsync('Europe/Bratislava');
+```
 
 Generated output
 
@@ -91,4 +99,3 @@ https://github.com/benfortuna/tzurl
 https://github.com/champtar/z-push/blob/master/src/lib/utils/timezoneutil.php
 
 http://www.healthstream.com/hlchelp/Administrator/Classes/HLC_Time_Zone_Abbreviations.htm
-

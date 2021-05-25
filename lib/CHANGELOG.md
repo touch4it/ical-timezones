@@ -1,5 +1,11 @@
 # ical-timezone Changelog
 
+## 1.7.0 (2021-05-25)
+
+-  Added async versions of functions
+-  Updated dependencies
+-  Refactored function to be more efficient
+
 ## 1.6.1 (2021-05-11)
 
 -  Updated dependencies
