@@ -1,5 +1,13 @@
 # ical-timezone Changelog
 
+## 1.8.0 (2021-08-23)
+
+-  Added `timezoneExists` validation function
+-  Updated devDependencies
+-  Refactored `extractVTZ` function
+-  Refactored `getVtimezoneAsync` function
+-  Bumped minimal Node.js version to 12.0
+
 ## 1.7.0 (2021-05-25)
 
 -  Added async versions of functions
