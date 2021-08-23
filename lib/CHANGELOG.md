@@ -1,43 +1,47 @@
 # ical-timezone Changelog
 
+## 1.8.1 (2021-08-23)
+
+-   Fixed `timezoneExists` validation function
+
 ## 1.8.0 (2021-08-23)
 
--  Added `timezoneExists` validation function
--  Updated devDependencies
--  Refactored `extractVTZ` function
--  Refactored `getVtimezoneAsync` function
--  Bumped minimal Node.js version to 12.0
+-   Added `timezoneExists` validation function
+-   Updated devDependencies
+-   Refactored `extractVTZ` function
+-   Refactored `getVtimezoneAsync` function
+-   Bumped minimal Node.js version to 12.0
 
 ## 1.7.0 (2021-05-25)
 
--  Added async versions of functions
--  Updated dependencies
--  Refactored function to be more efficient
+-   Added async versions of functions
+-   Updated dependencies
+-   Refactored function to be more efficient
 
 ## 1.6.1 (2021-05-11)
 
--  Updated dependencies
+-   Updated dependencies
 
 ## 1.6.0 (2020-12-23)
 
--  Updated dependencies
+-   Updated dependencies
 
 ## 1.4.1 (2020-11-05)
 
--  Updated TypeScript definition file
+-   Updated TypeScript definition file
 
 ## 1.4.0 (2020-11-04)
 
--  Added `getVtimezoneComponent` method to parse VTIMEZONE component from full timezone object
--  Updated dependencies
+-   Added `getVtimezoneComponent` method to parse VTIMEZONE component from full timezone object
+-   Updated dependencies
 
 ## 1.3.0 (2020-07-19)
 
--  Updated dependencies
+-   Updated dependencies
 
 ## 1.2.0 (2020-03-16)
 
--  Updated dependencies
+-   Updated dependencies
 
 ## 1.1.1 (2019-12-12)
 
