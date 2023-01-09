@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('node:fs');
 const glob = require('glob');
 
 const files = glob.sync('../lib/zones/**/*.ics');
@@ -9,7 +9,7 @@ for (const zone of files) {
 
   zones[name] = `${name}.ics`;
 
-  if (name.match(/^Etc\/*/)) {
+  if (/^Etc\/*/.test(name)) {
     const match = name.match(/^Etc\/(.*)/);
     zones[match[1]] = zones[name];
   }

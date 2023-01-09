@@ -1,6 +1,13 @@
 {
-  "extends": "touch4it/node",
-  "rules": {
-    "unicorn/prefer-module": "off"
-  }
+  "env": {
+    "jest/globals": true
+  },
+  "plugins": [
+    "eslint-plugin-jest"
+  ],
+  "extends": [
+    "touch4it/node",
+    "touch4it/commonjs",
+    "touch4it/jsdoc"
+  ]
 }

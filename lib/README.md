@@ -8,7 +8,7 @@
 
 Library to generate RFC 5545 VTIMEZONE iCalendar component
 
-##  Usage
+## Usage
 
 ### Installation
 
@@ -25,14 +25,16 @@ const tz = require('@touch4it/ical-timezones');
 ```javascript
 const vtimezone = tz.getVtimezone('Europe/Bratislava');
 ```
+
 or
+
 ```javascript
 const vtimezone = await tz.getVtimezoneAsync('Europe/Bratislava');
 ```
 
 Generated output
 
-```
+```ical
 BEGIN:VCALENDAR
 PRODID:-//tzurl.org//NONSGML Olson 2018g-rearguard//EN
 VERSION:2.0
@@ -63,14 +65,16 @@ END:VCALENDAR
 ```javascript
 const vtimezone = tz.getVtimezoneComponent('Europe/Bratislava');
 ```
+
 or
+
 ```javascript
 const vtimezone = await tz.getVtimezoneComponentAsync('Europe/Bratislava');
 ```
 
 Generated output
 
-```
+```ical
 BEGIN:VTIMEZONE
 TZID:Europe/Bratislava
 TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Bratislava
@@ -92,7 +96,7 @@ END:STANDARD
 END:VTIMEZONE
 ```
 
-##  Data sources
+## Data sources
 
 https://github.com/benfortuna/tzurl
 

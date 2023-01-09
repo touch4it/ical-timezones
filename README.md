@@ -1,4 +1,4 @@
-#   RFC 5545 VTIMEZONE iCalendar component generator - zones generator
+# RFC 5545 VTIMEZONE iCalendar component generator - zones generator
 
 [Library](./lib/README.md)
 
