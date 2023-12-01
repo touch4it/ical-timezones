@@ -20,7 +20,7 @@
     "Viktor Sulak <viktor.sulak@touch4it.com>"
   ],
   "dependencies": {
-    "glob": "^8.0.3"
+    "glob": "^9.0.0"
   },
   "devDependencies": {
     "eslint": "^8.31.0",
